@@ -1,1 +1,2 @@
-web: gunicorn DevTest.wsgi:application
+web: gunicorn DevTest.DevTest.wsgi:application
+
