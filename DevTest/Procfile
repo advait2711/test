@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-web: gunicorn DevTest.wsgi
+web: gunicorn DevTest.DevTest.wsgi
 =======
 web: gunicorn DevTest.DevTest.wsgi:application
 
