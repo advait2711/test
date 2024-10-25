@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 web: gunicorn DevTest.wsgi
 =======
-web: gunicorn DevTest.DevTest.wsgi:application
+web: gunicorn DevTest.wsgi:application
 
 >>>>>>> b1bfd7f3b924b565bef5519878c25b96e973a9ab
