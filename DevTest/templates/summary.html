@@ -1,0 +1,22 @@
+<form action="{% url 'download_csv' %}" method="get">
+    <button type="submit">Download Summary as CSV</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Cust State</th>
+            <th>Cust Pin</th>
+            <th>DPD Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in summary_data %}
+        <tr>
+            <td>{{ row.Cust_State }}</td>
+            <td>{{ row.Cust_Pin }}</td>
+            <td>{{ row.DPD }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
