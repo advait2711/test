@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-6)1y$9po(l_)6iqdcr9!@y0uf8$o7xims-q#^2)g^!wa#gum-0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['DevTest.herokuapp.com']
+ALLOWED_HOSTS = ['DevTest.onrender.com']
 
 
 
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DevTest.wsgi.application'
+WSGI_APPLICATION = 'DevTest.DevTest.wsgi.application'
 
 
 # Database
